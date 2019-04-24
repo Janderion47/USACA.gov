@@ -110,6 +110,10 @@ h1 {
 	font-size: 15px;
 	font-family: Verdana, Generva, sans-serif;
 }
+body {
+	margin: 1%;
+	
+}
 
 .Middle-align {
 	text-align: center
@@ -118,6 +122,8 @@ h1 {
 	width: %;
 	height: %;
 	border: 2px solid #ff0000;
+	
+	padding: 1px
 }
 .list-color {
 	color: #ffffff
