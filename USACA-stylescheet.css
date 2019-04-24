@@ -105,6 +105,7 @@ input, select {
 
 /* My edits */
 
+
 h1 {
 	font-size: 15px;
 	font-family: Verdana, Generva, sans-serif;
@@ -113,7 +114,15 @@ h1 {
 .Middle-align {
 	text-align: center
 }
+.Box-1 {
+	width: %;
+	height: %;
+	border: 2px solid #ff0000;
+}
+.list-color {
+	color: #ffffff
+}
 
 #List {
-	
+	background-color: #000000;
 }
