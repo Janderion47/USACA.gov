@@ -113,7 +113,8 @@ h1 {
 	font-family: Verdana, Generva, sans-serif;
 }
 body {
-	margin: 1%;	
+	margin: 1%;
+	display: flex
 }
 
 .Middle-align {
@@ -136,6 +137,7 @@ body {
 	padding: 5px;
 	
 	float: left;
+	
 }
 .list-color {
 	color: #ffffff
@@ -150,4 +152,11 @@ body {
 }
 #Greeting {
 	text-indent: 1em
+}
+#div1 {
+	width: 85%
+}
+#div2 {
+	width: 15%;
+	float: right;
 }
