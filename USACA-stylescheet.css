@@ -113,12 +113,17 @@ h1 {
 	font-family: Verdana, Generva, sans-serif;
 	color: #ffffff;
 }
-h2.a {
+nav {
+	display: flex;
 	color: #ffffff;
+	margin: 5px
 }
 body {
 	margin: 1%;
 	display: flex
+}
+p {
+	color: #ffffff
 }
 
 .Middle-align {
@@ -151,8 +156,8 @@ body {
 	background-color: #000000;
 	line-height: 150%;
 }
-#nav-creator {
-	color: #ffffff;
+#nav {
+	color: #fffffF;
 	background-color: 
 }
 #Greeting {
