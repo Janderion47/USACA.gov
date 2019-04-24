@@ -145,18 +145,22 @@ body {
 
 #List {
 	background-color: #000000;
+	line-height: 150%;
 }
 #nav-creator {
 	color: #000000;
 	background-color: 
 }
 #Greeting {
-	text-indent: 1em
+	text-indent: 1em;
+	font-size: 30%;
 }
 #div1 {
-	width: 85%
+	width: 85%;
+	margin-bottom: 1%
 }
 #div2 {
 	width: 15%;
 	float: right;
+	margin-left: 1%
 }
