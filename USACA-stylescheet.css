@@ -167,7 +167,12 @@ p {
 #Greeting {
 	text-indent: 0em;
 	font-size: 20px;
-	color: #ffffff
+	color: #ffffff;
+}
+#Messages {
+	text-indent: 0em;
+	font-size: 20px;
+	color: #ffffff;
 }
 #div1 {
 	width: 85%;
