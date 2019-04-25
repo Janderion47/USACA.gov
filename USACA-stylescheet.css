@@ -175,7 +175,8 @@ p {
 	color: #ffffff;
 }
 #message-list {
-	color: #ffffff
+	color: #ffffff;
+	font-size: 15px;
 }
 #div1 {
 	width: 85%;
