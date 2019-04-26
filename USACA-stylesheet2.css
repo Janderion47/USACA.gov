@@ -111,7 +111,6 @@ html {
 }
 body {
 	margin: 1%;
-	display: flex;
 }
 h1 {
 	font-size: 30px;
@@ -122,6 +121,7 @@ h1 {
 
 #main-div {
 	width: 100%;
+	height: 50%;
 	display: flex;
 }
 #div1 {
@@ -130,9 +130,22 @@ h1 {
 }
 header {
 	width: 100%;
+	display: flex;
+	padding: 10px
+}
+#flag {
+	height: 50%;
+	column-width: 10%
+	padding: 2px;
+	margin: 1px;
+	vertical-align: middle;
 }
 header h1 {
 	text-align: center;
+	font-size: 40px
+}
+header div {
+	height: 100px
 }
 
 #nav {
@@ -159,7 +172,7 @@ header h1 {
 }
 #box-1 {
 	width: ;
-	height: %;
+	height: 325px;
 	border: 2px solid #ff0000;
 	background-color: #ffffff;
 	
@@ -174,14 +187,15 @@ header h1 {
 #red-list {
 	padding: 4px;
 	border: 3px solid #ff0000;
-	background-color: #000000
+	background-color: #000000;
+	height: 310px
 }
 .list-color {
 	color: #ffffff;
 }
 #box-2 {
 	width: 100%;
-	height: %;
+	height: 100%;
 	border: 2px solid #0000ff;
 	
 	padding: 5px;
@@ -238,4 +252,18 @@ header h1 {
 	text-align: justify;
   	text-justify: inter-word;
 	font-size: 15px;
+}
+
+
+
+
+#At-the-bottom {
+	color: #ffffff;
+	font-size: 20px;
+	
+	height: ;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	align-self: center
 }
