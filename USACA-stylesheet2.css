@@ -106,6 +106,16 @@ input, select {
 
 /* My edits */
 
+html {
+	background: #000000;
+}
+h1 {
+	font-size: 30px;
+	font-family: Verdana, Generva, sans-serif;
+	color: #ffffff;
+}
+
+
 #main-div {
 	width: 100%;
 	display: flex;
@@ -118,17 +128,19 @@ header {
 	width: 100%;
 }
 header h1 {
-	text-align: center
+	text-align: center;
 }
-nav {
+
+#nav {
 	display: flex;
-	margin: 5px
+	color: #ffffff;
+	margin: 5px;
 }
 #navdiv-1 {
 	width: 40%;
 	border: 2px solid #ffffff;
 }
-#navdiv-2 #navdiv-3 {
+#navdiv-2, #navdiv-3 {
 	width: 30%;
 	border: 2px solid #ffffff;
 }
