@@ -134,7 +134,7 @@ p {
 	text-align: center
 }
 .Box-1 {
-	width: 10%;
+	width: 60px;
 	height: %;
 	border: 2px solid #ff0000;
 	
@@ -143,7 +143,7 @@ p {
 	float: left;
 }
 .Box-2 {
-	width: 90%;
+	width: 100%;
 	height: %;
 	border: 2px solid #0000ff;
 	
