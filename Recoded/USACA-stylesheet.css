@@ -104,12 +104,95 @@ input, select {
 
 
 
+/* My edits */
 
+#main-div {
+	width: 100%;
+	display: flex;
+}
+#div1 {
+	width: 75%;
+	margin-bottom: 1%
+}
+header {
+	width: 100%;
+}
+header h1 {
+	text-align: center
+}
+nav {
+	display: flex;
+	margin: 5px
+}
+#navdiv-1 {
+	width: 40%;
+	border: 2px solid #ffffff;
+}
+#navdiv-2 #navdiv-3 {
+	width: 30%;
+	border: 2px solid #ffffff;
+}
+.nav-h2 {
+	text-align: center
+}
+#main1 {
+	display: flex;
+	margin-top: 1%;
+}
+#box-1 {
+	width: ;
+	height: %;
+	border: 2px solid #ff0000;
+	
+	padding: 5px;
+	
+	float: left;
+	
+	background-color: #000000;
+	line-height: 150%;
+}
+.list-color {
+	color: #ffffff;
+}
+#box-2 {
+	width: 100%;
+	height: %;
+	border: 2px solid #0000ff;
+	
+	padding: 5px;
+	
+	float: left;
+	
+	text-align: justify;
+	text-justify: inter-word;
+}
+#greeting {
+	text-indent: 0em;
+	font-size: 20px;
+	color: #ffffff;
+}
+#box2-link {
+	text-indent: 0em;
+	font-size: 20px;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+   	background-color: #ffffff;
+   	color: #000000;
+   	text-decoration-line: none;
+}
+#messages {
+	text-indent: 0em;
+	font-size: 20px;
+	color: #ffffff;
+}
+#message-list {
+	color: #ffffff;
+	font-size: 15px;
+}
 
-
-
-
-
-.div-flex {
-	display: flex
+#div2 {
+	width: 25%;
+	float: right;
+	margin-left: 1%
 }
