@@ -109,6 +109,10 @@ input, select {
 html {
 	background: #000000;
 }
+body {
+	margin: 1%;
+	display: flex
+}
 h1 {
 	font-size: 30px;
 	font-family: Verdana, Generva, sans-serif;
@@ -209,4 +213,22 @@ header h1 {
 	width: 25%;
 	float: right;
 	margin-left: 1%
+}
+#divdiv1 {
+	border: 2px solid #ffffff;
+	padding-top, padding-bottom, padding-left: 1%;
+	padding-right: 2%;
+}
+#logopic {
+	width: 100%;
+	border: solid #0f0f0f;
+	border-bottom: 3px;
+	border-top,border-left,border-right: 4px;
+	background-color: #0f0f0f;
+}
+#side-text {
+	color: #FFFFFF;
+	text-align: justify;
+  	text-justify: inter-word;
+	font-size: 15px;
 }
