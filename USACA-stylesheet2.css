@@ -132,13 +132,15 @@ header h1 {
 }
 
 #nav {
-	display: flex;
 	color: #ffffff;
 	margin: 5px;
+	text-align: center
 }
 #navdiv-1 {
-	width: 40%;
+	width: 50%;
 	border: 2px solid #ffffff;
+	text-align: center;
+	align: center;
 }
 #navdiv-2, #navdiv-3 {
 	width: 30%;
