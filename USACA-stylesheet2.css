@@ -261,9 +261,9 @@ header div {
 	color: #ffffff;
 	font-size: 15px;
 	
-	height: ;
-	width: 100%;
-	position: absolute;
+	position: fixed;
+	left: 0;
 	bottom: 0;
-	align-self: center
+	width: 100%;
+	text-align: center;
 }
