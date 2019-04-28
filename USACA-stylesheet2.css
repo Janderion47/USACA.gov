@@ -241,9 +241,6 @@ header div {
 }
 #logopic {
 	width: 100%;
-	border: solid #0f0f0f;
-	border-bottom: 3px;
-	border-top,border-left,border-right: 4px;
 	background-color: #0f0f0f;
 }
 .side-text {
