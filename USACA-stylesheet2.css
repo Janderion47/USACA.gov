@@ -250,9 +250,8 @@ header div {
 	background-color: #0f0f0f;
 }
 .side-text {
-	color: #FFFFFF;
+	color: #ffffff;
 	text-align: justify;
-  	text-justify: inter-word;
 	font-size: 80%;
 	text-indent: 10%;
 	padding: 2px;
@@ -265,9 +264,10 @@ header div {
 	color: #ffffff;
 	font-size: 15px;
 	
-	position: fixed;
+	position: ;
 	left: 0;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
+	margin-top: 10%;
 }
