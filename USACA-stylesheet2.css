@@ -148,18 +148,25 @@ header div {
 	height: 100px
 }
 
-#nav {
+.nav {
 	color: #ffffff;
 	margin: 5px;
 	text-align: center;
 }
 #navdiv-1 {
-	width: 50%;
+	width: 100%;
 	border: 2px solid #ffffff;
-	text-align: center;
 }
-#navdiv-2, #navdiv-3 {
-	width: 30%;
+#navdiv-2 {
+	width: 100%;
+	border: 2px solid #ffffff;
+}
+#navdiv-3 {
+	width: 100%;
+	border: 2px solid #ffffff;
+}
+#navdiv-4 {
+	width: 100%;
 	border: 2px solid #ffffff;
 }
 .nav-h2 {
