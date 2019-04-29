@@ -179,11 +179,9 @@ header div {
 }
 #box-1 {
 	width: ;
-	height: 325px;
+	height: 330px;
 	border: 2px solid #ff0000;
 	background-color: #ffffff;
-	
-	padding: 5px;
 	
 	float: left;
 	
@@ -192,6 +190,7 @@ header div {
 	display: flex;
 }
 #red-list {
+	margin: 3px;
 	padding: 4px;
 	border: 3px solid #ff0000;
 	background-color: #000000;
@@ -256,6 +255,30 @@ header div {
 	font-size: 80%;
 	text-indent: 10%;
 	padding: 2px;
+}
+
+
+#experiment-box {
+	border: 2px solid #ff0000;
+	width: 58%;
+	margin-left: 2%;
+	background-color: #ffffff;
+}
+.experiment-title {
+	margin: 3px;
+	padding: 3px;
+	border: 2px solid #0000ff;
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 20px;
+}
+.experiment-list {
+	margin: 3px;
+	padding: 3px;
+	border: 2px solid #0000ff;
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 15px;
 }
 
 
