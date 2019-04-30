@@ -113,6 +113,8 @@ html {
 	margin: 1%;
 	background-color: #000000;
 	color: #ffffff;
+	font-family: Garamond, "Palatino Linotype", serif;
+	margin: 1%;
 }
 #experiment-box {
 	border: 2px solid #ff0000;
@@ -127,11 +129,14 @@ html {
 	color: #ffffff;
 	font-size: 20px;
 }
-.experiment-list {
+#experiment-list {
 	margin: 3px;
 	padding: 3px;
 	border: 2px solid #0000ff;
 	background-color: #000000;
 	color: #ffffff;
 	font-size: 15px;
+}
+.list-link {
+	
 }
