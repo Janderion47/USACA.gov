@@ -117,34 +117,42 @@ html {
 	margin: 1%;
 }
 #experiment-box {
-	border: 2px solid #ff0000;
-	width: %;
-	background-color: #ffffff;
+	
 }
 .experiment-title {
-	margin: 3px;
 	padding: 3px;
-	border: 2px solid #0000ff;
+	border: 2px solid #ffffff;
 	background-color: #000000;
-	color: #ffffff;
+	color: inherit;
 	font-size: 20px;
+}
+#experiment-listbody {
+	padding: 3px;
+	background-color: #000000;
+	color: inherit;
 }
 #experiment-list {
 	margin: 3px;
 	padding: 3px;
-	border: 2px solid #0000ff;
+	border: 2px solid #ffffff;
 	background-color: #000000;
-	color: #ffffff;
+	color: inherit;
 	font-size: 15px;
 }
-.list-link {
+#list-warning {
+	font-size: 15px;
+	text-align: justify;
 	
+	
+	margin-bottom: 200%
+}
+.list-link {
+	color: inherit;
 }
 #At-the-bottom {
 	color: #ffffff;
 	font-size: 15px;
 	
-	position: absolute;
 	left: 0;
 	bottom: 0;
 	width: 100%;
