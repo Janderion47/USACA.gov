@@ -6,99 +6,170 @@ Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
 }
 
 body {
-    line-height:1;
+	line-height: 1;
 }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
-    display:block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
 }
 
 nav ul {
-    list-style:none;
+	list-style: none;
 }
 
-blockquote, q {
-    quotes:none;
+blockquote,
+q {
+	quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
 }
 
 a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
 }
 
 /* change colours to suit your needs */
 ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
 }
 
 /* change colours to suit your needs */
 mark {
-    background-color:#ff9;
-    color:#000; 
-    font-style:italic;
-    font-weight:bold;
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
 }
 
 del {
-    text-decoration: line-through;
+	text-decoration: line-through;
 }
 
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
+abbr[title],
+dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
 }
 
 table {
-    border-collapse:collapse;
-    border-spacing:0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 /* change border colour to suit your needs */
 hr {
-    display:block;
-    height:1px;
-    border:0;   
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
 }
 
-input, select {
-    vertical-align:middle;
+input,
+select {
+	vertical-align: middle;
 }
 
 
@@ -111,9 +182,9 @@ html {
 	font-family: Garamond, "Palatino Linotype", serif;
 	margin: 1%;
 }
-body {
-	
-}
+
+body {}
+
 h1 {
 	font-size: 30px;
 	color: #ffffff;
@@ -126,26 +197,30 @@ h1 {
 	height: 50%;
 	display: flex;
 }
+
 #div1 {
 	width: 100%;
 	margin-bottom: 1%;
 }
+
 header {
 	width: 100%;
 	display: flex;
 	padding: 10px;
 }
+
 #flag {
 	height: 75%;
-	column-width: 10%
-	padding: 2px;
+	column-width: 10% padding: 2px;
 	margin: 1px;
 	vertical-align: middle;
 }
+
 header h1 {
 	text-align: center;
 	font-size: 40px
 }
+
 header div {
 	height: 100px
 }
@@ -155,41 +230,49 @@ header div {
 	margin: 5px;
 	text-align: center;
 }
+
 #navdiv-1 {
 	width: 100%;
 	border: 2px solid #ffffff;
 }
+
 #navdiv-2 {
 	width: 100%;
 	border: 2px solid #ffffff;
 }
+
 #navdiv-3 {
 	width: 100%;
 	border: 2px solid #ffffff;
 }
+
 #navdiv-4 {
 	width: 100%;
 	border: 2px solid #ffffff;
 }
+
 .nav-h2 {
 	text-align: center;
 }
+
 #main1 {
 	display: flex;
 	margin-top: 1%;
 }
+
 #box-1 {
 	width: ;
 	height: 330px;
 	border: 2px solid #ff0000;
 	background-color: #ffffff;
-	
+
 	float: left;
-	
+
 	line-height: 150%;
-	
+
 	display: flex;
 }
+
 #red-list {
 	margin: 3px;
 	padding: 4px;
@@ -197,41 +280,47 @@ header div {
 	background-color: #000000;
 	height: 310px
 }
+
 .list-color {
 	color: #ffffff;
 }
+
 #box-2 {
 	width: 100%;
 	height: 100%;
 	border: 2px solid #0000ff;
-	
+
 	padding: 2%;
-	
+
 	float: left;
-	
+
 	text-align: justify;
 	text-justify: inter-word;
 }
+
 #greeting {
 	text-indent: 0em;
 	font-size: 20px;
 	color: #ffffff;
 }
+
 #box2-link {
 	text-indent: 0em;
 	font-size: 20px;
 	color: #ffffff;
 	border: 1px solid #ffffff;
 	border-radius: 5px;
-   	background-color: #ffffff;
-   	color: #000000;
-   	text-decoration-line: none;
+	background-color: #ffffff;
+	color: #000000;
+	text-decoration-line: none;
 }
+
 #messages {
 	text-indent: 0em;
 	font-size: 20px;
 	color: #ffffff;
 }
+
 #message-list {
 	color: #ffffff;
 	font-size: 15px;
@@ -242,14 +331,17 @@ header div {
 	float: right;
 	margin-left: 1%;
 }
+
 #divdiv1 {
 	border: 2px solid #ffffff;
 }
+
 #logopic {
 	width: 100%;
 	height: 100%;
 	background-color: #0f0f0f;
 }
+
 .side-text {
 	color: #ffffff;
 	text-align: justify;
@@ -258,6 +350,7 @@ header div {
 	padding: 2px;
 	text-decoration-line: none;
 }
+
 #text-next-to-discord {
 	width: 58%;
 	margin-left: 2%;
@@ -265,16 +358,10 @@ header div {
 	padding: 1%;
 }
 
-
-
-
-
-
-
 #At-the-bottom {
 	color: #ffffff;
 	font-size: 15px;
-	
+
 	position: ;
 	left: 0;
 	bottom: 0;

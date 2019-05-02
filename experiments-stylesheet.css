@@ -191,6 +191,7 @@ html {
 #home-link {
 	color: inherit;
 	text-decoration-line: none;
+    text-align: center;
 }
 
 #experiment-box {}
@@ -200,7 +201,8 @@ html {
 	border: 2px solid #ffffff;
 	background-color: #000000;
 	color: inherit;
-	font-size: 20px;
+	font-size: 25px;
+    text-align: center;
 }
 
 #experiment-listbody {
@@ -211,23 +213,33 @@ html {
 
 #experiment-list {
 	margin: 3px;
-	padding: 3px;
+	padding: 5px;
 	border: 2px solid #ffffff;
 	background-color: #000000;
 	color: inherit;
-	font-size: 15px;
+	font-size: 20px;
 }
 
-#list-warning {
-	font-size: 15px;
-	text-align: justify;
+#list-warning1 {
+	font-size: 20px;
+	text-align: center;
 	color: inherit;
+
+	margin-bottom: 300%;
+}
+#list-warning2 {
+	font-size: 15px;
+	text-align: center;
+	color: #ff0000;
 
 	margin-bottom: 300%;
 }
 
 .list-link {
 	color: inherit;
+    margin-bottom: 5%;
+    
+    border 3px solid 
 }
 
 #At-the-bottom {
