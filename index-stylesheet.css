@@ -179,7 +179,7 @@ select {
 
 html {
 	background: #101010;
-	font-family: Garamond, "Palatino Linotype", serif;
+	font-family: 'Space Mono', monospace;
 	margin: 1%;
 }
 
