@@ -229,6 +229,7 @@ header div {
     color: #ffffff;
     margin: 5px;
     text-align: center;
+	padding: 2%;
 }
 
 #navdiv-1 {
@@ -300,13 +301,13 @@ header div {
 
 #greeting {
     text-indent: 0em;
-    font-size: 20px;
+    font-size: 15px;
     color: #ffffff;
 }
 
 #box2-link {
     text-indent: 0em;
-    font-size: 20px;
+    font-size: 15px;
     color: #ffffff;
     border-radius: 5px;
     color: #ffffff;
@@ -315,7 +316,7 @@ header div {
 
 #messages {
     text-indent: 0em;
-    font-size: 20px;
+    font-size: 15px;
     color: #ffffff;
 }
 
@@ -345,7 +346,7 @@ header div {
     text-align: justify;
     font-size: 15px;
     text-indent: 10%;
-    padding: 2px;
+    padding: 5%;
     text-decoration-line: none;
 }
 
@@ -354,6 +355,7 @@ header div {
     margin-left: 2%;
     color: #ffffff;
     padding: 1%;
+	font-size: 15px;
 }
 
 #At-the-bottom {
@@ -366,4 +368,5 @@ header div {
     width: 100%;
     text-align: center;
     margin-top: 10%;
+	padding: 2%;
 }
