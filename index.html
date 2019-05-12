@@ -10,6 +10,12 @@
 		you're gay-->
 
 	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	
+	<!-- Date and time thing -->
+	<script>
+		var dt = new Date();
+		document.getElementById("datetime").innerHTML = (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (("0"+dt.getDate()).slice(-2)) +"/"+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()+1).slice(-2)) +":"+ (("0"+dt.getMinutes()+1).slice(-2));
+</script>
 </head>
 
 <body>
@@ -18,6 +24,9 @@
 			<img src="Pictures/flag.png" id="flag" style="float: left;">
 		</div>
 		<h1 title="We're better than the FBI, CIA and NSA">United States Anomalous Containment Agency</h1>
+		<div>
+			<p style="color: #ffffff" id="datetime"></p>
+		</div>
 	</header>
 	<div id="main-div">
 		<!--All content ever-->
