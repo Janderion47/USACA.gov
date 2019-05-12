@@ -182,4 +182,6 @@ select {
 
 /* My part */
 
-body {}
+html {
+	background-color: #000000;
+}

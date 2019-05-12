@@ -349,6 +349,12 @@ header div {
 	padding: 5%;
 	text-decoration-line: none;
 }
+.side-text-link {
+	color: #ffffff;
+	text-align: inherit;
+	font-size: inherit;
+	text-decoration-line: none;
+}
 
 #text-next-to-discord {
 	width: 58%;
@@ -371,3 +377,5 @@ header div {
 	margin-top: 10%;
 	padding: 2%;
 }
+
+
