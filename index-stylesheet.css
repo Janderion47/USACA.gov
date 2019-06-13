@@ -313,17 +313,6 @@ header div {
 	text-decoration-line: none;
 }
 
-#messages {
-	text-indent: 0em;
-	font-size: 15px;
-	color: #ffffff;
-}
-
-#message-list {
-	color: #ffffff;
-	font-size: 15px;
-}
-
 #updates {
 	width: 100%;
 	height: 100%;
