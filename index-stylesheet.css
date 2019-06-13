@@ -201,6 +201,7 @@ h1 {
 #div1 {
 	width: 100%;
 	margin-bottom: 1%;
+	display: 
 }
 
 header {
@@ -259,6 +260,7 @@ header div {
 #main1 {
 	display: flex;
 	margin-top: 1%;
+	height: 50%;
 }
 
 #box-1 {
